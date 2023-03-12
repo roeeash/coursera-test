@@ -1,0 +1,9 @@
+{
+    "name": "My GitHub Pages Site",
+    "description": "This is a description of my GitHub Pages site.",
+    "url": "https://roeeash.github.com/coursera-test/",
+    "baseurl": "/coursera-test",
+    "google_analytics": "UA-12345678-1",
+    "timezone": "UTC"
+  }
+  
