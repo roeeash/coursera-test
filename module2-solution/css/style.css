@@ -91,11 +91,20 @@ body {
 
 /* Tablet View */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* Set up the row layout */
-  .row {
-    width: 100%;
-  }
-  /* Set up the section layout */
+    /* Set up the row layout */
+    .row {
+      width: 100%;
+    }
+    /* Set up the section layout */
+    #chicken, #beef {
+      width: 50%;
+      float: left;
+    }
+    #sushi {
+      width: 100%;
+      float: none;
+    }
+     /* Set up the section layout */
   .section {
     width: 50%;
     float: left;
@@ -111,17 +120,13 @@ body {
     top: 0;
     right: 0;
     padding: 5px 10px;
-    background-color: #66ccff;
+    background-color: #ffcc66;
     color: black;
     font-size: 25px;
     font-family: Arial, sans-serif;
   }
-  /* Set up the third section layout */
-  .section:nth-child(3) {
-    width: 100%;
-    float: none;
   }
-}
+  
 
 /* Mobile View */
 @media only screen and (max-width: 767px) {
